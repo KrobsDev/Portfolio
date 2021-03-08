@@ -61,6 +61,16 @@ body {
   color: white;
 }
 
+.
+
+.line1, .line2, .line3{
+  width: 30px;
+  height: 5px;
+  margin: 5px;
+  background-color: black;
+
+}
+
 #contact {
   border: 1px solid black;
   padding: 8px;
@@ -217,4 +227,12 @@ input[type="button"] {
 .nande{
     display: flex;
     justify-content: space-around;
+}
+
+
+/* media queries */
+@media Screen and (max-width: 760px){
+  .illustration{
+    display: none;
+  }
 }

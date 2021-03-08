@@ -31,9 +31,20 @@
                     <li><a href="" class="links">Projects</a></li>
                     <li><a href="" class="links">Services</a></li>
                     <li id="contact"><a href="" class="links">Contact</a></li>
+
+                    <!-- hamburger menu -->
+                    <div class="hamburger">
+                        <div class="line1"></div>
+                        <div class="line2"></div>
+                        <div class="line3"></div>
+                    </div>
                 </ul>
             </nav>
+
+            
         </div>
+
+        
         
     </div>
     <!-- end of navbar -->
@@ -56,7 +67,7 @@
                     </div>
 
                     <!-- second column -->
-                    <div class="col-md-6">
+                    <div class="col-md-6 illustration">
                         <img src="assets/img/homeillustration.svg" alt="" width="700">
                     </div>
                 </div>
