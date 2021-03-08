@@ -76,7 +76,7 @@
                 <div class="row">
                     <!-- left content -->
                     <div class="picture col-md-6">
-                        <img src="/assets/img/IMG_4668_Original.jpg" alt="">
+                        <img src="assets/img/IMG_4668_Original.jpg" alt="">
                     </div>
 
                     <!-- right content -->
@@ -182,21 +182,21 @@
                 <div class="row ">
                     <!-- web design -->
                     <div class="card">
-                        <img src="/assets/img/Icon awesome-paint-brush.svg" alt="" width="100">
+                        <img src="assets/img/Icon awesome-paint-brush.svg" alt="" width="100">
                         <p class="medium-text">Web Design</p>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut lab </p>
                     </div>
 
                     <!-- ui/ux -->
                     <div class="card">
-                        <img src="/assets/img/Icon awesome-uikit.svg" alt="" width="100">
+                        <img src="assets/img/Icon awesome-uikit.svg" alt="" width="100">
                         <p class="medium-text">UI/UX Design</p>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut lab </p>
                     </div>
 
                     <!-- tutoring -->
                     <div class="card">
-                        <img src="/assets/img/Icon awesome-code.svg" alt="" width="100">
+                        <img src="assets/img/Icon awesome-code.svg" alt="" width="100">
                         <p class="medium-text">Tutoring</p>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut lab </p>
                     </div>
@@ -221,7 +221,7 @@
 
                         <!-- icons -->
                         <div class="info">
-                            <img src="/assets/img/Icon awesome-user-alt.svg" alt="" width="30">
+                            <img src="assets/img/Icon awesome-user-alt.svg" alt="" width="30">
                             <div class="text">
                                 <p>Name</p>
                                 <p>Akwasi Asante-Krobea</p>
@@ -229,7 +229,7 @@
                         </div>
                         
                         <div class="info">
-                            <img src="/assets/img/Icon material-location-on.svg" alt="" width="30">
+                            <img src="assets/img/Icon material-location-on.svg" alt="" width="30">
                             <div class="text">
                                 <p>Address</p>
                                 <p>P.O.Box 3458, Ksi</p>
@@ -237,7 +237,7 @@
                         </div>
                         
                         <div class="info">
-                            <img src="/assets/img/Icon ionic-ios-mail.svg" alt="" width="30">
+                            <img src="assets/img/Icon ionic-ios-mail.svg" alt="" width="30">
                             <div class="text">
                                 <p>Email</p>
                                 <p>akwasi.asantekrobea1@gmail.com</p>
@@ -248,15 +248,15 @@
 
                         <!-- social media links -->
                         <div class="sc-links">
-                            <a href="" class="social"><img src="/assets/img/Icon awesome-facebook.svg" alt=""></a>
+                            <a href="" class="social"><img src="assets/img/Icon awesome-facebook.svg" alt=""></a>
 
-                            <a href="" class="social"><img src="/assets/img/Icon awesome-instagram.svg" alt=""></a>
+                            <a href="" class="social"><img src="assets/img/Icon awesome-instagram.svg" alt=""></a>
 
-                            <a href="" class="social"><img src="/assets/img/Icon awesome-twitter.svg" alt=""></a>
+                            <a href="" class="social"><img src="assets/img/Icon awesome-twitter.svg" alt=""></a>
 
-                            <a href="" class="social"><img src="/assets/img/Icon awesome-linkedin.svg" alt=""></a>
+                            <a href="" class="social"><img src="assets/img/Icon awesome-linkedin.svg" alt=""></a>
 
-                            <a href="" class="social"><img src="/assets/img/Icon awesome-github.svg" alt=""></a>
+                            <a href="" class="social"><img src="assets/img/Icon awesome-github.svg" alt=""></a>
                         </div>
                         
                     </div>
