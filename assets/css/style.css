@@ -183,6 +183,11 @@ input[type="button"] {
   justify-content: space-around;
 }
 
+footer{
+  background-color: black;
+  text-align: center;
+  padding: 30px;
+}
 
 @media screen and (max-width: 768px){
   .illustration{
