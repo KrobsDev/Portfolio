@@ -235,6 +235,15 @@ input[type="button"] {
     width: 4%;
   }
 
+  #contact{
+    /* border: 1px solid black; */
+    padding-left: 0px;
+    /* width: 100px; */
+    border: none;
+    text-align: left;
+    background-color: transparent;
+  }
+
   #name,
   #email,
   #subject{
