@@ -229,6 +229,7 @@ footer{
     width: 250px;
     height: 150px;
     justify-content: center;
+    margin-bottom: 20px;
   }
 
   .card img{
