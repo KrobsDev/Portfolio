@@ -195,7 +195,7 @@ footer{
   }
 
   .small-text {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
   
   .large-text {
@@ -258,6 +258,10 @@ footer{
 
   #message{
     height: 150px;
+  }
+
+  #home, #about, #skills, #services, #projects{
+    text-align: center;
   }
 
 }
