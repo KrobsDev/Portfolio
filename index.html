@@ -1,5 +1,4 @@
-<?php
-?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,41 +12,42 @@
 <title>Akwasi Asante-Krobea</title>
 </head>
 <body>
-    <!-- navbar -->
-    <div class="container-fluid nav d-flex px-0">
-        <!-- nav-content -->
-        <div class="container nav-container d-flex">
-            <!-- brand -->
-            <div class="brand">
-                <p>Portfolio</p>
-            </div>
-
-            <!-- links -->
-            <nav>
-                <ul class="navlinks d-flex">
-                    <li class="active"><a href="#home" class="links">Home</a></li>
-                    <li><a href="#about" class="links">About</a></li>
-                    <li><a href="" class="links">Skills</a></li>
-                    <li><a href="" class="links">Projects</a></li>
-                    <li><a href="" class="links">Services</a></li>
-                    <li id="contact"><a href="" class="links">Contact</a></li>
-
-                    <!-- hamburger menu -->
-                    <div class="hamburger">
-                        <div class="line1"></div>
-                        <div class="line2"></div>
-                        <div class="line3"></div>
-                    </div>
+    <!-- Navigation -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark static-top">
+        <div class="container">
+            <a class="navbar-brand medium-text" href="#">
+                Portfolio
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home
+                            <span class="sr-only">(current)</span>
+                            </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" id="contact" href="#contact-s">Contact</a>
+                    </li>
                 </ul>
-            </nav>
-
-            
+            </div>
         </div>
-
-        
-        
-    </div>
-    <!-- end of navbar -->
+    </nav>
+    
 
     <main>
         <section id="home" class="s1">
@@ -55,7 +55,7 @@
             <div class="container">
                 <div class="row firstsection">
                     <!-- text content -->
-                    <div class="col-md-6 leftside">
+                    <div class="col-md-6 col-sm-12 leftside">
                         <p class="small-text">Hello, my name is</p>
                         <p class="large-text">Akwasi Asante-Krobea</span>
                         <p class="medium-text">I am a <span class="diff">Web Developer</span></p>
@@ -84,7 +84,7 @@
                 </div>
 
                 <!-- content -->
-                <div class="row">
+                <div class="row ab-sec">
                     <!-- left content -->
                     <div class="picture col-md-6">
                         <img src="assets/img/IMG_4668_Original.jpg" alt="">
@@ -102,7 +102,7 @@
         <!-- end of about section -->
 
         <!-- skills section -->
-        <section class="s1">
+        <section id="skills" class="s1">
             <div class="container">
                 <!-- heading -->
                 <div class="heading">
@@ -114,7 +114,6 @@
                     <div class="col-md-6">
                         <p class="medium-text">My skills and experiences</p>
                         <p class="small-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                        <input type="button" value="Read more">
                     </div>
 
                     <!-- right content -->
@@ -168,7 +167,7 @@
         <!-- end of skill section -->
 
         <!-- start of projects section -->
-        <section class="s2">
+        <section id="projects" class="s2">
             <div class="container">
                 <!-- heading -->
                 <div class="heading">
@@ -182,7 +181,7 @@
         <!-- end of projects section -->
 
         <!-- services section -->
-        <section class="s1 services">
+        <section id="services" class="s1 services">
             <div class="container">
                 <!-- heading -->
                 <div class="heading">
@@ -195,21 +194,21 @@
                     <div class="card">
                         <img src="assets/img/Icon awesome-paint-brush.svg" alt="" width="100">
                         <p class="medium-text">Web Design</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut lab </p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                     </div>
 
                     <!-- ui/ux -->
                     <div class="card">
                         <img src="assets/img/Icon awesome-uikit.svg" alt="" width="100">
                         <p class="medium-text">UI/UX Design</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut lab </p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit </p>
                     </div>
 
                     <!-- tutoring -->
                     <div class="card">
                         <img src="assets/img/Icon awesome-code.svg" alt="" width="100">
                         <p class="medium-text">Tutoring</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut lab </p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                     </div>
                 </div>
             </div>
@@ -217,7 +216,7 @@
         <!-- end of services section -->
 
         <!-- contact section -->
-        <section class="s2">
+        <section id="contact-s" class="s2">
             <div class="container">
                 <!-- heading  -->
                 <div class="heading">
@@ -228,7 +227,7 @@
                 <div class="row">
                     <div class="col-md-6">
                         <p class="medium-text">Reach out to me.</p>
-                        <p class="small-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <p class="small-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
 
                         <!-- icons -->
                         <div class="info">
@@ -257,18 +256,7 @@
 
                         <hr>
 
-                        <!-- social media links -->
-                        <div class="sc-links">
-                            <a href="" class="social"><img src="assets/img/Icon awesome-facebook.svg" alt=""></a>
-
-                            <a href="" class="social"><img src="assets/img/Icon awesome-instagram.svg" alt=""></a>
-
-                            <a href="" class="social"><img src="assets/img/Icon awesome-twitter.svg" alt=""></a>
-
-                            <a href="" class="social"><img src="assets/img/Icon awesome-linkedin.svg" alt=""></a>
-
-                            <a href="" class="social"><img src="assets/img/Icon awesome-github.svg" alt=""></a>
-                        </div>
+                        
                         
                     </div>
 
@@ -294,9 +282,24 @@
             </div>
         </section>
     </main>
+
+    <!-- footer -->
+    <footer>
+        <!-- social media links -->
+        <div class="sc-links">
+            <a href="" class="social"><img src="assets/img/Icon awesome-facebook.svg" alt=""></a>
+
+            <a href="" class="social"><img src="assets/img/Icon awesome-instagram.svg" alt=""></a>
+
+            <a href="" class="social"><img src="assets/img/Icon awesome-twitter.svg" alt=""></a>
+
+            <a href="" class="social"><img src="assets/img/Icon awesome-linkedin.svg" alt=""></a>
+
+            <a href="" class="social"><img src="assets/img/Icon awesome-github.svg" alt=""></a>
+        </div>
+    </footer>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
 </body>
 </html>
-<?
