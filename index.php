@@ -176,7 +176,159 @@
                 </div>
 
                 <!-- carousel  -->
-                
+                <div id="carouselExampleIndicators" class="carousel slide full-carousel" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="card project">
+                                    <!-- img -->
+                                    <img src="./assets/img/IMG_4668_Original.jpg" alt="">
+
+                                    <!-- text content -->
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+
+                                    <!-- button -->
+                                    <input type="button" value="Read more">
+                                </div>
+                                
+                                <div class="card project">
+                                    <!-- img -->
+                                    <img src="./assets/img/IMG_4668_Original.jpg" alt="">
+
+                                    <!-- text content -->
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+
+                                    <!-- button -->
+                                    <input type="button" value="Read more">
+                                </div>
+                                
+                                <div class="card project">
+                                    <!-- img -->
+                                    <img src="./assets/img/IMG_4668_Original.jpg" alt="">
+
+                                    <!-- text content -->
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+
+                                    <!-- button -->
+                                    <input type="button" value="Read more">
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="card project">
+                                    <!-- img -->
+                                    <img src="./assets/img/IMG_4668_Original.jpg" alt="">
+
+                                    <!-- text content -->
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+
+                                    <!-- button -->
+                                    <input type="button" value="Read more">
+                                </div>
+                                
+                                <div class="card project">
+                                    <!-- img -->
+                                    <img src="./assets/img/IMG_4668_Original.jpg" alt="">
+
+                                    <!-- text content -->
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+
+                                    <!-- button -->
+                                    <input type="button" value="Read more">
+                                </div>
+                                
+                                <div class="card project">
+                                    <!-- img -->
+                                    <img src="./assets/img/IMG_4668_Original.jpg" alt="">
+
+                                    <!-- text content -->
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+
+                                    <!-- button -->
+                                    <input type="button" value="Read more">
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                      
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                </div>
+
+
+                <!-- responsive carousel -->
+                <div id="carouselExampleIndicators1" class="carousel slide res-carousel" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                      <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
+                      <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
+                      <li data-target="#carouselExampleIndicators1" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="card project">
+                                <!-- img -->
+                                <img src="./assets/img/IMG_4668_Original.jpg" alt="">
+
+                                <!-- text content -->
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+
+                                <!-- button -->
+                                <input type="button" value="Read more">
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="card project">
+                                <!-- img -->
+                                <img src="./assets/img/IMG_4668_Original.jpg" alt="">
+
+                                <!-- text content -->
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+
+                                <!-- button -->
+                                <input type="button" value="Read more">
+                            </div>
+                        </div>
+  
+                        <div class="carousel-item">
+                            <div class="card project">
+                                <!-- img -->
+                                <img src="./assets/img/IMG_4668_Original.jpg" alt="">
+
+                                <!-- text content -->
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+
+                                <!-- button -->
+                                <input type="button" value="Read more">
+                            </div>
+                        </div>
+  
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators1" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                </div>
             </div>
         </section>
         <!-- end of projects section -->

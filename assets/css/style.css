@@ -23,10 +23,9 @@ body {
   background-color: transparent;
 }
 
-.navbar{
+.navbar {
   background-color: #f4511e;
 }
-
 
 #contact {
   border: 1px solid black;
@@ -121,7 +120,7 @@ input[type="button"] {
   height: 300px;
   width: 350px;
   margin: 5px auto;
-  border: 1px solid #f4511e;
+  border-color: #f4511e;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -129,6 +128,35 @@ input[type="button"] {
   justify-content: center;
   color: black;
   text-align: center;
+}
+
+.project {
+  height: 650px;
+  object-fit: contain;
+  justify-content: flex-start;
+}
+
+.project p {
+  padding: 20px;
+  text-align: left;
+}
+
+.project input {
+  align-self: flex-start;
+  margin-left: 20px;
+  padding: 15px;
+  width: 120px;
+  font-size: 1rem;
+}
+
+.project img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.res-carousel {
+  display: none;
 }
 
 .info {
@@ -183,25 +211,55 @@ input[type="button"] {
   justify-content: space-around;
 }
 
-footer{
+footer {
   background-color: black;
   text-align: center;
   padding: 30px;
 }
 
-@media screen and (max-width: 768px){
-  .illustration{
+footer hr{
+  border-color: white;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 20px;
+}
+
+.carousel-control-prev-icon{
+  margin-left: -200px;
+}
+
+.carousel-control-next-icon{
+  margin-right: -200px;
+}
+
+.carousel-control-next-icon:after {
+  content: ">";
+  font-size: 55px;
+  color: red;
+  margin-left: 0;
+}
+
+.carousel-control-prev-icon:after {
+  content: "<";
+  font-size: 55px;
+  color: red;
+}
+
+@media screen and (max-width: 768px) {
+  .illustration {
     display: none;
   }
 
   .small-text {
     font-size: 0.9rem;
   }
-  
+
   .large-text {
     font-size: 2rem;
   }
-  
+
   .medium-text {
     font-size: 1.5rem;
   }
@@ -213,35 +271,35 @@ footer{
     text-align: center;
   }
 
-  .ab-sec{
+  .ab-sec {
     justify-content: center;
   }
 
-  input[type="button"]{
+  input[type="button"] {
     padding: 15px;
   }
 
-  .p-bar{
+  .p-bar {
     margin: 10px;
   }
 
-  .card{
+  .card {
     width: 250px;
     height: 150px;
     justify-content: center;
     margin-bottom: 20px;
   }
 
-  .card img{
+  .card img {
     margin-top: 20px;
     width: 15%;
   }
 
-  .info img{
-    width: 4%;
+  .info img {
+    width: 5%;
   }
 
-  #contact{
+  #contact {
     /* border: 1px solid black; */
     padding-left: 0px;
     /* width: 100px; */
@@ -252,20 +310,76 @@ footer{
 
   #name,
   #email,
-  #subject{
+  #subject {
     padding: 5px;
     margin-bottom: 15px;
   }
 
-  #message{
+  #message {
     height: 150px;
   }
 
-  #home, #about, #skills, #services, #projects{
+  #home,
+  #about,
+  #skills,
+  #services,
+  #projects {
     text-align: center;
   }
 
+  .full-carousel {
+    display: none;
+  }
 
+  .res-carousel {
+    display: block;
+  }
 
+  .project {
+    height: 580px;
+    width: 320px;
+    object-fit: cover;
+    justify-content: center;
+  }
+
+  .project p {
+    padding: 20px;
+    text-align: left;
+    font-size: 0.9rem;
+  }
+
+  .project input {
+    align-self: flex-start;
+    margin-left: 20px;
+    padding: 15px;
+    width: 120px;
+    font-size: 1rem;
+  }
+
+  .project img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0px 0px;
+    margin-top: -35px;
+  }
+
+  .carousel-control-prev-icon{
+    margin-left: -50px;
+  }
+  
+  .carousel-control-next-icon{
+    margin-right: -50px;
+  }
+
+  .carousel-control-prev-icon:after, .carousel-control-next-icon:after{
+    font-size: 30px;
+  }
+
+  .carousel-control-prev-icon{
+    padding-left: 15px;
+  }
+  
+  .carousel-control-next-icon{
+    padding-right: 45px;
+  }
 }
-
