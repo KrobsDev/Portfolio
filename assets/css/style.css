@@ -206,6 +206,17 @@ input[type="button"] {
   padding: 10px;
 }
 
+.form{
+  display: flex;
+  flex-direction: column;
+}
+
+.form input[type="button"]{
+  padding: 15px;
+  width: 150px;
+  align-self: flex-end;
+}
+
 .nande {
   display: flex;
   justify-content: space-around;
@@ -381,5 +392,10 @@ footer hr{
   
   .carousel-control-next-icon{
     padding-right: 45px;
+  }
+
+  .form input[type="button"]{
+    width: 100%;
+    align-self: center;
   }
 }

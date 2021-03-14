@@ -429,7 +429,8 @@
 
                             <textarea name="textarea" id="message" placeholder="Message" style="resize: none;" cols="30" rows="10"></textarea>
                         </form>
-                        
+                        <!-- button -->
+                        <input type="button" value="Submit">
                     </div>
                 </div>
             </div>
