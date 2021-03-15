@@ -176,6 +176,10 @@ input[type="button"] {
   padding: 0;
 }
 
+.contact-s{
+  overflow: hidden;
+}
+
 #name,
 #email {
   flex: 1;
