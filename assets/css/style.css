@@ -263,7 +263,7 @@ footer hr{
   color: red;
 }
 
-@media screen and (max-width: 380px) {  
+@media screen and (max-width: 768px) {  
   body{
     position: relative;
   }
